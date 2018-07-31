@@ -3,7 +3,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 import numpy as np
 import datetime
-
+ 
 import ranking
 import nicovideo_ranking as nico
 import sougou_ranking as sougou
